@@ -6,16 +6,16 @@ public class matrix_single_row_multiply
     {
         try (Scanner read = new Scanner(System.in)) 
         {
-            System.out.println("Entre row of matrix");
+            System.out.println("Enter row of matrix");
             int row1 = read.nextInt();
             System.out.println();
-            System.out.println("Entre column of matrix");
+            System.out.println("Enter column of matrix");
             int column1 = read.nextInt();
             read.nextLine();
             System.out.println();
             int matrix1[][] = new int[row1][column1];
             int matrix2[][] = new int[row1][column1];
-            System.out.println("Entre matrix");
+            System.out.println("Enter matrix");
             for (int i = 0; i < row1; i++) 
             {
                 for (int j = 0; j < column1; j++) 
@@ -43,10 +43,10 @@ public class matrix_single_row_multiply
             }
 
             System.out.println();
-            System.out.println("entre row of which u want to multiply");
+            System.out.println("enter row of which you want to multiply");
             int find = read.nextInt();
             System.out.println();
-            System.out.println("entre no");
+            System.out.println("enter no");
             int mult = read.nextInt();
             System.out.println();
             find = find - 1;
@@ -68,8 +68,9 @@ public class matrix_single_row_multiply
             }
             else 
             {
-                System.out.println("max row is " + row1);
+                System.out.println("max row present are " + row1);
             }
         }
     }
 }
+
